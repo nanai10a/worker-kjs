@@ -1,6 +1,6 @@
 # worker-kjs (template)
 
-template of Kotlin/JS for Cloudflare Worker
+template of Kotlin/JS for Cloudflare Workers
 
 ---
 
