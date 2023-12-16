@@ -14,10 +14,8 @@ template of Kotlin/JS for Cloudflare Worker
 git clone https://github.com/Nanai10a/worker-kjs my-worker
 cd my-worker
 
-# edit wrangler.toml
-
-./build.sh
+./build.sh --name my-worker --compatibility-date $(date +%Y-%m-%d)
 
 # for example...
-curl *.workers.dev # respond "hi, kotlin/js?"
+curl my-worker.${account_name}.workers.dev # respond "hi, kotlin/js?"
 ```
