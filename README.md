@@ -6,7 +6,7 @@ template of Kotlin/JS for Cloudflare Worker
 
 ## notice
 
-- you should setup `wrangler.toml` about `.name` and `.compatibility_date`.
+- you should setup at `wrangler.toml` about `.name` and `.compatibility_date`.
 
 ## usage
 
